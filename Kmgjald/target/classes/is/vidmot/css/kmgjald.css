@@ -1,0 +1,24 @@
+/** Style blað fyrir km gjald appið
+**/
+
+.label, .button {
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 6; /** top right bottom left **/
+}
+
+/** labels sem innihalda tölur **/
+.talaLabel {
+-fx-border-color: black;
+-fx-min-height: 36;
+-fx-min-width: 145;
+-fx-alignment:center-right;
+-fx-padding: 0 8 0 0} /** top right bottom left **/
+
+.text-field {
+-fx-pref-height:36;}
+
+/** Rangt inntak  **/
+
+.rangt-inntak{
+-fx-border-color: red;
+}
