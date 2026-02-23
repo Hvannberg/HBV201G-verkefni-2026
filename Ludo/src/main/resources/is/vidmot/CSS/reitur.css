@@ -1,0 +1,20 @@
+.reitur-venjulegur {
+
+    -fx-background-color: lightgray;
+}
+
+.reitur
+ {
+    -fx-border-color: black;
+}
+
+
+.reitur-byrjun {
+    -fx-background-color: #ff7f7f;
+}
+
+.reitur-mark {
+    -fx-background-color: lightgreen;
+}
+
+

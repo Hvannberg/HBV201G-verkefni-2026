@@ -1,0 +1,47 @@
+
+.one, .two, .three, .four, .five, .six, .leikmadur0, .leikmadur1 {
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.one {
+    -fx-background-image: url("myndir/one.png");
+
+}
+
+.two {
+    -fx-background-image: url("myndir/two.png");
+
+}
+
+.three {
+    -fx-background-image: url("myndir/three.png");
+
+}
+
+.four {
+    -fx-background-image: url("myndir/four.png");
+
+}
+
+
+.five {
+    -fx-background-image: url("myndir/five.png");
+
+}
+
+.six {
+    -fx-background-image: url("myndir/six.png");
+
+}
+
+.leikmadur0 {
+    -fx-background-image: url("myndir/leikmadur0.png");
+
+}
+
+.leikmadur1 {
+    -fx-background-image: url("myndir/leikmadur1.png");
+
+}
