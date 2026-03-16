@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import is.vidmot.view.FerdSpjald?>
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+
+<DialogPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" >
+    <buttonTypes>
+        <ButtonType fx:id="okButton" buttonData="OK_DONE" text="Í lagi" />
+        <ButtonType fx:id="cancelButton" buttonData="CANCEL_CLOSE" text="Hætta við" />
+    </buttonTypes>
+    <content>
+        <VBox spacing="10">
+            <Label text="Viltu eyða þessari ferð" />
+            <TextField fx:id="fxHeiti"/>
+        </VBox>
+    </content>
+</DialogPane>

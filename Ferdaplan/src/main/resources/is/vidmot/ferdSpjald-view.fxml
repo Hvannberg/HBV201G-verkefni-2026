@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<fx:root hgap="5.0" type="javafx.scene.layout.GridPane" vgap="5.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <columnConstraints>
+        <ColumnConstraints hgrow="NEVER" />
+        <ColumnConstraints hgrow="ALWAYS" />
+    </columnConstraints>
+    <children>
+        <Label text="Heiti ferðar" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Label text="Áfangastaður" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Label text="Dagsetning" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <TextField fx:id="fxHeiti" editable="true" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <TextField fx:id="fxDagsetning"  GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <TextField fx:id="fxAfangastadur" editable="true" layoutX="91.0" layoutY="10.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    </children>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+    </padding>
+</fx:root>
